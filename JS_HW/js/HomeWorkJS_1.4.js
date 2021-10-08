@@ -12,9 +12,9 @@ wellcome(name, wellcomeString);
 //function expression
 var wellcomeString = 'Nice to see you';
 var name = 'Daria';
-var wellcome;
 
-wellcome = function(wellcomeString, name) {
+
+var wellcome = function(wellcomeString, name) {
 	return (wellcomeString + ', ' + name);
 };
 
