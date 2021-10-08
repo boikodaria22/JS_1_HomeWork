@@ -3,7 +3,6 @@ var wellcomeString = 'Nice to see you';
 var name = 'Daria';
 
 function wellcome(name, wellcomeString) {
-	console.log(wellcomeString + ', ' + name);
 	return (wellcomeString + ', ' + name);
 
 }
@@ -16,7 +15,6 @@ var name = 'Daria';
 var wellcome;
 
 wellcome = function(wellcomeString, name) {
-	console.log(wellcomeString + ', ' + name);
 	return (wellcomeString + ', ' + name);
 };
 
