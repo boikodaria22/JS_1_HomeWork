@@ -4,8 +4,8 @@ var array = [16, true, 'MetraBit', NaN, {
 }, 30, NaN, null, false, 'Vue'];
 
 function myFuncForTypes(array) {
-	var num = 0;
 	var str = 0;
+	var num = 0;
 	var bool = 0;
 	var nullType = 0;
 	var obj = 0;
@@ -15,12 +15,12 @@ function myFuncForTypes(array) {
 			nullType++;
 		} else {
 			switch (typeof(array[i])) {
-				case 'number':
-					num++;
-					break;
-
 				case 'string':
 					str++;
+					break;
+					
+				case 'number':
+					num++;
 					break;
 
 				case 'boolean':
@@ -37,7 +37,7 @@ function myFuncForTypes(array) {
 		}
 
 	}
-	console.log(`Number: ${num}, string: ${str}, boolean: ${bool}, null: ${nullType}, object: ${obj}.`);
+	console.log(`String: ${str}, number: ${num}, boolean: ${bool}, null: ${nullType}, object: ${obj}.`);
 }
 myFuncForTypes(array);
 
