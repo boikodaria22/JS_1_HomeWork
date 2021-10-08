@@ -15,7 +15,7 @@ var i = 0;
     if(isNaN(array[i]) === true) {
       array[i] = null;
     }
-  i++
+  i++;
   }
 console.log('Проверка и изменение массива завершена');
 console.log(array);
@@ -29,7 +29,7 @@ do {
     if(isNaN(array[i]) === true) {
       array[i] = null;
     }
-  i++
+  i++;
   }
 }
   while( i < array.length);
