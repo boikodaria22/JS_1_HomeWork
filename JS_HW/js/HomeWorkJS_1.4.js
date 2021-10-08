@@ -13,8 +13,8 @@ wellcome(name, wellcomeString);
 var wellcomeString = 'Nice to see you';
 var name = 'Daria';
 
-var wellcome = function(wellcomeString, name) {
+var wellcome = function(name,wellcomeString) {
 	return (wellcomeString + ', ' + name);
 };
 
-wellcome('Nice to see you', 'Daria');
+wellcome('Daria','Nice to see you');
