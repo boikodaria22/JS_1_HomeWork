@@ -11,7 +11,11 @@ function wellcome(name, wellcomeString) {
 wellcome(name, wellcomeString);
 
 //function expression
-var wellcome = function(wellcomeString, name) {
+var wellcomeString = 'Nice to see you';
+var name = 'Daria';
+var wellcome;
+
+wellcome = function(wellcomeString, name) {
 	console.log(wellcomeString + ', ' + name);
 	return (wellcomeString + ', ' + name);
 };
